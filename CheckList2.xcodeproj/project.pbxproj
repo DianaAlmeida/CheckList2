@@ -14,6 +14,7 @@
 		2F2BF87D2A7CF088007DACFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BF87C2A7CF088007DACFB /* Assets.xcassets */; };
 		2F2BF8802A7CF088007DACFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BF87E2A7CF088007DACFB /* LaunchScreen.storyboard */; };
 		2F2BF8882A814A00007DACFB /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BF8872A814A00007DACFB /* ChecklistItem.swift */; };
+		2F2BF88A2A827D60007DACFB /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BF8892A827D60007DACFB /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2F2BF87F2A7CF088007DACFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F2BF8812A7CF088007DACFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F2BF8872A814A00007DACFB /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		2F2BF8892A827D60007DACFB /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2F2BF8732A7CF087007DACFB /* AppDelegate.swift */,
 				2F2BF8752A7CF087007DACFB /* SceneDelegate.swift */,
 				2F2BF8772A7CF087007DACFB /* ChecklistViewController.swift */,
+				2F2BF8892A827D60007DACFB /* AddItemViewController.swift */,
 				2F2BF8792A7CF087007DACFB /* Main.storyboard */,
 				2F2BF87C2A7CF088007DACFB /* Assets.xcassets */,
 				2F2BF87E2A7CF088007DACFB /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				2F2BF8782A7CF087007DACFB /* ChecklistViewController.swift in Sources */,
 				2F2BF8742A7CF087007DACFB /* AppDelegate.swift in Sources */,
 				2F2BF8762A7CF087007DACFB /* SceneDelegate.swift in Sources */,
+				2F2BF88A2A827D60007DACFB /* AddItemViewController.swift in Sources */,
 				2F2BF8882A814A00007DACFB /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
