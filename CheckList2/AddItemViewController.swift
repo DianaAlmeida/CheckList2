@@ -13,14 +13,14 @@ protocol ItemDetailViewControllerDelegate: AnyObject {
     func itemDetailViewController(_ controller: ItemDetailViewController, didFinishEditing item: ChecklistItem)
 }
 
-class ItemDetailViewController: UITableViewController {
-
+class ItemDetailViewController: UITableViewController, UITextFieldDelegate {
+    
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
     
     weak var delegate: ItemDetailViewControllerDelegate?
     var itemToEdit: ChecklistItem?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,7 +48,6 @@ class ItemDetailViewController: UITableViewController {
         let oldText = textField.text!
         let stringRange = Range(range, in: oldText)!
         let newText = oldText.replacingCharacters(in: stringRange, with: string)
-        
         doneBarButton.isEnabled = !newText.isEmpty
         
         return true
